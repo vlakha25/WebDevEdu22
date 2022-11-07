@@ -7,10 +7,11 @@
 	<title>Pulse</title>
 	<link rel="stylesheet" href="css/bootstrap-reboot.min.css">
 	<link rel="stylesheet" href="css/font.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-	<div class="promo">
+	<section class="promo">
 		<div class="container">
 			<header class="header">
 				<a href="#" class="header__logo">
@@ -54,9 +55,9 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
-	<div class="advantages">
+	<section class="advantages">
 		<div class="container">
 			<h2 class="title">НАШІ ПЕРЕВАГИ</h2>
 			<div class="advantages__wrapper">
@@ -83,9 +84,9 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
-	<div class="consultations">
+	<section class="consultations">
 		<div class="container">
 			<h2 class="title title_left">
 				Отримайте безкоштовну консультацію
@@ -102,7 +103,29 @@
 				<button class="button button_submit">замовити консультацію</button>
 			</form>
 		</div>
-	</div>
+	</section>
 
+	<section class="carousel">
+		<div class="container">
+			<div class="carousel__wrapper">
+				<div class="carousel__inner">
+					<div>
+						<img src="img/slides/slide_1.jpg" alt="slide">
+					</div>
+					<div>
+						<img src="img/slides/slide_2.jpg" alt="slide">
+					</div>
+					<div>
+						<img src="img/slides/slide_3.jpg" alt="slide">
+					</div>
+				</div>
+				<button type="button" class="prev"><img src="icons/left.svg" alt="left"></button>
+				<button type="button" class="next"><img src="icons/right.svg" alt="right"></button>
+			</div>
+		</div>
+	</section>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+	<script src="js/script.js"></script>
 </body>
 </html>
