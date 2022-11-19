@@ -77,6 +77,7 @@
 		margin-inline: auto;
 	}
 	.catalog {
+		padding-bottom: 30px;
 		&__content {
 			width: auto;
 		}
@@ -115,6 +116,31 @@
 	.button_mini {
 		width: 120px;
 		height: 35px;
+	}
+	.feed {
+		padding-bottom: 40px;
+		&__wrapper {
+			margin-top: 50px;
+		}
+		&__item {
+			flex-direction: column;
+		}
+		&__img {
+			width: 100px;
+			height: 100px;
+			margin: 0 auto;
+		}
+		&__text {
+			margin-left: 0;
+			padding: 0 20px;
+		}
+		&__subtitle {
+			margin-top: 15px;
+			text-align: center;
+		}
+		&__count {
+			text-align: center;
+		}
 	}
 }
 
@@ -222,6 +248,12 @@
 			&:nth-child(3n+3) {
 				margin-right: 0;
 			}
+		}
+	}
+	.feed {
+		&__descr {
+			font-size: 14px;
+			line-height: 20px;
 		}
 	}
 }
